@@ -1,0 +1,77 @@
+body {
+	/*Typography*/
+	font-size: 20px;
+	text-align: center;
+
+	/*uigradients.com - Blush*/
+	background: #B24592;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header, main, div {
+	/*Object display*/
+	display: block;
+	width: 50%;
+	margin: auto;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+
+header {
+	background-color: rgba(250, 255, 255, 0.5);
+	margin-top: 3em;
+	height: 15%;
+	margin-bottom: 3em;
+}
+
+h1 {
+	font-family: 'Courgette', cursive;
+	color: rgb(127, 23, 88);
+	font-size: 4em;
+	margin: 0;
+}
+
+main {
+	background-color: rgba(250, 255, 255, 0.75);
+	height: 55%;
+}
+
+div {
+	width: 90%;
+    height: 60%;
+    margin-bottom: 2em;
+	background: #ECE9E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h2 {
+	font-family: 'Dosis', sans-serif;
+}
+
+button {
+	background-color: #B24592;
+	border: 1px solid #933978;
+	color: rgb(250, 255, 255);
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px 0;
+    width: 70%;
+    border-radius: 10px;
+}
+
+button:hover, button:visited, button:focus {
+	background-color: #933978;
+	border: 1px solid #933978;
+}
+
+button:focus {
+	outline-color: none;
+}
+
+button:active{
+	background-color: #F15F79;
+	border: 1px solid #F15F79;
+}
